@@ -793,7 +793,7 @@ Canvas:
   m_GameObject: {fileID: 6306036015961478139}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -803,7 +803,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!114 &28027152271297675
 MonoBehaviour:
@@ -817,7 +817,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24c749d0c675d3940923d50f77b241d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  disableInteraction: 0
+  disableInteraction: 1
   visibleOnAwake: 0
   controlOpacity: 1
   fadeTime: 0.3
@@ -833,10 +833,10 @@ MonoBehaviour:
   hideOnLoad: 1
   hideInThumbnail: 0
   saveVisibilityState: 1
-  blockInputWhenVisible: 1
+  blockInputWhenVisible: 0
   allowedSamplers:
   - Continue
-  modalUI: 1
+  modalUI: 0
   fontChangeConfiguration: []
 --- !u!225 &6306036015961478118
 CanvasGroup:
@@ -847,8 +847,8 @@ CanvasGroup:
   m_GameObject: {fileID: 6306036015961478139}
   m_Enabled: 1
   m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!114 &6306036015961478117
 MonoBehaviour:
@@ -964,7 +964,7 @@ MonoBehaviour:
   m_Padding:
     m_Left: 0
     m_Right: 9
-    m_Top: 30
+    m_Top: 95
     m_Bottom: 0
   m_ChildAlignment: 1
   m_Spacing: 0

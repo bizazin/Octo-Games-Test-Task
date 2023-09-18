@@ -5,9 +5,9 @@ using Naninovel;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Infrastructure.Managers
+namespace Infrastructure.Services
 {
-    public class QuestsManager : MonoBehaviour
+    public class QuestsService : MonoBehaviour
     {
         [SerializeField] private Transform _questContainer;
         [SerializeField] private Text _questNameText;

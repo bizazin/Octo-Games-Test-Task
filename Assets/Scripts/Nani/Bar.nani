@@ -1,2 +1,27 @@
+@if currentQuest=="1TalkToMike"
+    @back bar
 
-@stop
+@char Mike avatar:MikeDefault visible:false
+    
+    Mike: Haven't seen you around here before. You looking for trouble or just a drink?
+
+    Player: Are you Mike, the ex-soldier? I've heard you might have some information I'm after.
+
+    Mike: Ah, so you've been talking to Aria. What is it you want?
+
+    Player: I'm looking for a chip. A special one, said to be able to control the main AI of the city.
+
+    Mike: That's a tall order. Many have come looking for that very thing, and many have left empty-handed. Why should I help you?
+
+    Player: Because I believe in changing the city for the better. And I'm willing to prove my commitment. 
+
+    Mike: I admire your spirit. Tell you what, beat me in a game and I'll tell you what I know. Lose, and you owe me a favor in return.
+
+    Player: Fair enough. What's the game?
+
+    Mike: An old army favorite of mine, a game of strategy and wits. Prepare yourself.
+
+@else
+    Player: ...
+    @goto Map
+@endif

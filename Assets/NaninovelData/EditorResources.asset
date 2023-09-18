@@ -166,7 +166,7 @@ MonoBehaviour:
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
-    - name: MapUI
+    - name: Map
       pathPrefix: UI
       guid: cab85f654b13568419392907a4701ce8
     - name: QuestsUI
@@ -196,47 +196,14 @@ MonoBehaviour:
     - name: skyscarper
       pathPrefix: Backgrounds/MainBackground
       guid: a67ca205a3a610e4ab1c788e8e81d95b
-    - name: Canyon
-      pathPrefix: Backgrounds/MainBackground
-      guid: 8559362aff0bc3e47889abc063daf73f
-    - name: Forest
-      pathPrefix: Backgrounds/MainBackground
-      guid: 4e6c9d2dd66bd9b46a90a37b403ecff6
-    - name: Lake
-      pathPrefix: Backgrounds/MainBackground
-      guid: 564562c4d3634de4cb3b73a57614ff4e
-    - name: Mountain
-      pathPrefix: Backgrounds/MainBackground
-      guid: 3b6662b7396df894faf8a392654338c9
-    - name: Town
-      pathPrefix: Backgrounds/MainBackground
-      guid: 649ed66a89d0c4742a352def1c8aa5c8
   - Id: Scripts
     Resources:
-    - name: Test
-      pathPrefix: Scripts
-      guid: 91e1bb2c3213584448f110c4cfdac751
     - name: Start
       pathPrefix: Scripts
       guid: b9916dd0be11f8549bad1cfceb6df171
     - name: Map
       pathPrefix: Scripts
       guid: 1bc1515f8c853994ea914dafc6b9d04f
-    - name: Canyon
-      pathPrefix: Scripts
-      guid: d6971be909abc3f44b3a49754c29c306
-    - name: Forest
-      pathPrefix: Scripts
-      guid: 44f6e0affc01c17468665e09ae85382c
-    - name: Lake
-      pathPrefix: Scripts
-      guid: 30719d5dffb308d4d9cf9fca586afa74
-    - name: Mountain
-      pathPrefix: Scripts
-      guid: 9391d5e5d7ed1334c9ba658ee162f3c3
-    - name: Town
-      pathPrefix: Scripts
-      guid: ae690f31ee4e05d479837ac3024ed8ff
     - name: Bar
       pathPrefix: Scripts
       guid: 5e9db9b7e486fbf4786beb1775f6b43c

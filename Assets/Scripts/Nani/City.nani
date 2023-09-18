@@ -1,2 +1,6 @@
-
-@stop
+@if currentQuest=="3FindMike"
+    Player: пока что рано
+@else
+    Player: ...
+@endif
+@goto Map

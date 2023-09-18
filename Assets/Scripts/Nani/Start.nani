@@ -30,6 +30,8 @@ Player: Who?
 
 Aria: There's an old bar down in the undercity. A guy named Mike, ex-military type. If anyone knows about that chip, it'd be him. Chat him up, see what you can find out.
 
+@set currentQuest="1TalkToMike";isCurrentQuestActive=true
+@showUI QuestsUI
 Player: Thanks for the tip, Aria. I'll seek him out.
 
 Aria: Be cautious in the undercity, {PlayerName}. And remember, in Neon City, truth's often harder to find than fiction.
