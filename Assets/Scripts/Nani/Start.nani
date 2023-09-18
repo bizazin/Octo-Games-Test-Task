@@ -1,0 +1,37 @@
+; Background of the city
+@back city
+
+; Aria's Avatar
+@char Aria avatar:AriaDefault visible:false
+
+Aria: Whoa, hold up! You're new here, aren't you?
+
+; Player's input for name
+@char Player avatar:PlayerDefault visible:false
+@input PlayerName summary:"Enter your name."
+@stop
+
+; Setting player's name
+@set PlayerName="{PlayerName}"
+
+Player: The name's {PlayerName}. First time setting foot in Neon City.
+
+Aria: {PlayerName}, huh? Stands out in a place like this. You sure you've come to the right neon jungle?
+
+Player: Neon jungle? Is it that bad here?
+
+Aria: Ever since the AI uprising, Neon City's been more "byte" than bright. But every newcomer's got a story. What's yours?
+
+Player: I'm on the hunt for a chip that's rumored to give control over the city's main AI. Thought you might point me in the right direction.
+
+Aria: Ah, that old tale. The chip's existence is a bit of a myth around here. But I might know someone who could help you out.
+
+Player: Who?
+
+Aria: There's an old bar down in the undercity. A guy named Mike, ex-military type. If anyone knows about that chip, it'd be him. Chat him up, see what you can find out.
+
+Player: Thanks for the tip, Aria. I'll seek him out.
+
+Aria: Be cautious in the undercity, {PlayerName}. And remember, in Neon City, truth's often harder to find than fiction.
+@set skyscarperAvailable=false;
+@goto Map

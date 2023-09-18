@@ -27,7 +27,7 @@ MonoBehaviour:
     Resources:
     - name: Wide
       pathPrefix: TextPrinters
-      guid: 781828b806deb1e4cbf50ef9de41da10
+      guid: 0b54f50e82fd9c8438a83f639a85902a
   - Id: TextPrinters/31300781-6edd-4220-b2a5-b1c67b78dae4
     Resources:
     - name: Chat
@@ -166,3 +166,96 @@ MonoBehaviour:
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
+    - name: MapUI
+      pathPrefix: UI
+      guid: cab85f654b13568419392907a4701ce8
+    - name: QuestsUI
+      pathPrefix: UI
+      guid: 60be8630fbb5f0849876db3451b80236
+  - Id: CharacterAvatars
+    Resources:
+    - name: PlayerDefault
+      pathPrefix: CharacterAvatars
+      guid: bf9afb23c88347f4ab6c1b36d8ca191c
+    - name: AriaDefault
+      pathPrefix: CharacterAvatars
+      guid: f4fa51110c4485c43985b2eaed9aa400
+    - name: MikeDefault
+      pathPrefix: CharacterAvatars
+      guid: 99e90c3cd546c554aaf506e7359dabf8
+  - Id: Movies
+    Resources: []
+  - Id: Backgrounds/6dd3f12f-a3b8-457e-94b1-92b1cb9b5fca
+    Resources:
+    - name: city
+      pathPrefix: Backgrounds/MainBackground
+      guid: 5d5ecb4b01efd0642bf06dcd2f94316b
+    - name: bar
+      pathPrefix: Backgrounds/MainBackground
+      guid: 297d513a5c9328d4cb0c60894e66ef77
+    - name: skyscarper
+      pathPrefix: Backgrounds/MainBackground
+      guid: a67ca205a3a610e4ab1c788e8e81d95b
+    - name: Canyon
+      pathPrefix: Backgrounds/MainBackground
+      guid: 8559362aff0bc3e47889abc063daf73f
+    - name: Forest
+      pathPrefix: Backgrounds/MainBackground
+      guid: 4e6c9d2dd66bd9b46a90a37b403ecff6
+    - name: Lake
+      pathPrefix: Backgrounds/MainBackground
+      guid: 564562c4d3634de4cb3b73a57614ff4e
+    - name: Mountain
+      pathPrefix: Backgrounds/MainBackground
+      guid: 3b6662b7396df894faf8a392654338c9
+    - name: Town
+      pathPrefix: Backgrounds/MainBackground
+      guid: 649ed66a89d0c4742a352def1c8aa5c8
+  - Id: Scripts
+    Resources:
+    - name: Test
+      pathPrefix: Scripts
+      guid: 91e1bb2c3213584448f110c4cfdac751
+    - name: Start
+      pathPrefix: Scripts
+      guid: b9916dd0be11f8549bad1cfceb6df171
+    - name: Map
+      pathPrefix: Scripts
+      guid: 1bc1515f8c853994ea914dafc6b9d04f
+    - name: Canyon
+      pathPrefix: Scripts
+      guid: d6971be909abc3f44b3a49754c29c306
+    - name: Forest
+      pathPrefix: Scripts
+      guid: 44f6e0affc01c17468665e09ae85382c
+    - name: Lake
+      pathPrefix: Scripts
+      guid: 30719d5dffb308d4d9cf9fca586afa74
+    - name: Mountain
+      pathPrefix: Scripts
+      guid: 9391d5e5d7ed1334c9ba658ee162f3c3
+    - name: Town
+      pathPrefix: Scripts
+      guid: ae690f31ee4e05d479837ac3024ed8ff
+    - name: Bar
+      pathPrefix: Scripts
+      guid: 5e9db9b7e486fbf4786beb1775f6b43c
+    - name: City
+      pathPrefix: Scripts
+      guid: a9de96d40db0214469531346267ba0d1
+    - name: Skyscarper
+      pathPrefix: Scripts
+      guid: 26ec7ee3109894743ba6bf7199ae9bc4
+  - Id: Characters/3b3637d6-2b0a-4d77-a4dd-3e6a9b70f411
+    Resources: []
+  - Id: Characters/65bc802a-40a5-4880-8067-a6110dbf0a54
+    Resources: []
+  - Id: Characters/164fec50-8654-4ff5-b5dd-8fb03f654960
+    Resources: []
+  - Id: Audio
+    Resources: []
+  - Id: TextPrinters/af5708a6-b87d-4cc3-9e56-a49c9ef023cd
+    Resources:
+    - name: Tooltip
+      pathPrefix: TextPrinters
+      guid: 0d0e1ea3514ebdc4d8e1dd6d6926684f
