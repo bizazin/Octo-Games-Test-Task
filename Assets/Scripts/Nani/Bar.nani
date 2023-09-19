@@ -20,7 +20,7 @@
     Player: Fair enough. What's the game?
 
     Mike: An old army favorite of mine, a game of strategy and wits. Prepare yourself.
-
+    @set isMiniGameStarted=true
 @else
     Player: ...
     @goto Map

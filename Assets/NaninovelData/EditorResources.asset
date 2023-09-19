@@ -172,6 +172,9 @@ MonoBehaviour:
     - name: QuestsUI
       pathPrefix: UI
       guid: 60be8630fbb5f0849876db3451b80236
+    - name: MinigameLauncher
+      pathPrefix: UI
+      guid: e31f8aa25360a6e4eb1cf030c2a96919
   - Id: CharacterAvatars
     Resources:
     - name: PlayerDefault

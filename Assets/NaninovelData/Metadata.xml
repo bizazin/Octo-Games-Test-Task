@@ -348,7 +348,9 @@
         &lt;Values /&gt;
       &lt;/Constant&gt;
     &lt;/Constants&gt;
-    &lt;Variables /&gt;
+    &lt;Variables&gt;
+      &lt;string /&gt;
+    &lt;/Variables&gt;
     &lt;Functions /&gt;
   &lt;/Metadata&gt;
 &lt;/UpdateMetadata&gt;</SerializedMessage>
