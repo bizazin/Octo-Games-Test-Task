@@ -1,0 +1,8 @@
+; English <en> to Russian <ru> localization document for `Uncategorized` managed text document
+
+LocactionMapSlot.Bar: БАР
+LocactionMapSlot.Skyscarper: НЕБОСКРЁБ
+LocationMapSlot.City: ГОРОД
+MapIconUI.SelectButton: ВЫБОР ЛОКАЦИИ
+MapUI.Header.Finish: АРТА
+MapUI.Header.FirstLetter: К

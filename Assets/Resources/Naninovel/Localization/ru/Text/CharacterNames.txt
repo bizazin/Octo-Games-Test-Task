@@ -1,0 +1,5 @@
+; English <en> to Russian <ru> localization document for `CharacterNames` managed text document
+
+Aria: Ария
+Mike: Майк
+Player: {PlayerName}

@@ -240,6 +240,9 @@ MonoBehaviour:
     - name: MikeFinal
       pathPrefix: Scripts
       guid: 94d3b00e2ac56ee40a498b58cd3cee76
+    - name: ChipFound
+      pathPrefix: Scripts
+      guid: 7954eebb72d050249b724b378363f527
   - Id: Characters/3b3637d6-2b0a-4d77-a4dd-3e6a9b70f411
     Resources: []
   - Id: Characters/65bc802a-40a5-4880-8067-a6110dbf0a54

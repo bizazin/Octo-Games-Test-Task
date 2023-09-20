@@ -90,20 +90,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5975c9748a52c8d43b34c8d7c428cacd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scriptName: 
-  scriptText: '@set skyscarperAvailable=false
-
-    @sfx chip_found
-
-    Player: Here
-    it is! Now let''s go to Mike.
-
-    @set currentQuest="3TalkToMike";mapLeads="bar"
-
-    @hideUI
-    ChipUI
-
-    @goto Map'
+  scriptName: ChipFound
+  scriptText: '@goto ChipFound'
   playOnAwake: 0
   disableWaitInput: 1
 --- !u!114 &4189597797881909912

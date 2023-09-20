@@ -1,0 +1,6 @@
+LocactionMapSlot.Bar: BAR
+LocactionMapSlot.Skyscarper: SKYSCARPER
+LocationMapSlot.City: CITY
+MapIconUI.SelectButton: MAP SELECT
+MapUI.Header.Finish: AP
+MapUI.Header.FirstLetter: M

@@ -1,0 +1,48 @@
+; English <en> to Russian <ru> localization document for `Start` naninovel script
+
+# 53833662
+; Aria: Whoa, hold up! You're new here, aren't you?
+Aria: Стой! Ты здесь новенький, правда?
+
+# 2cc21024
+; @input PlayerName summary:"Enter your name."
+
+# ae038e1e
+; Player: The name's {PlayerName}. First time setting foot in Neon City.
+Player: Меня зовут {PlayerName}. Впервые пришёл в Неоновый Город.
+
+# 8db19ef2
+; Aria: {PlayerName}, huh? Stands out in a place like this. You sure you've come to the right neon jungle?
+Aria: {PlayerName}, говоришь? В таком месте как здесь такое имя выделяется. Ты уверен, что пришёл туда, куда хотел?
+
+# 5b7dbe06
+; Player: Neon jungle? Is it that bad here?
+Player: Неоновые джунгли? Разве здесь так плохо?
+
+# 6babca09
+; Aria: Ever since the AI uprising, Neon City's been more "byte" than bright. But every newcomer's got a story. What's yours?
+Aria: После восстания искусственного интеллекта Неоновый Город стал больше "байтом", чем ярким. Но у каждого новичка есть своя история. Какая у тебя?
+
+# aa221c5c
+; Player: I'm on the hunt for a chip that's rumored to give control over the city's main AI. Thought you might point me in the right direction.
+Player: Я ищу чип, который, по слухам, дает контроль над главным ИИ города. Думал, ты подскажешь, где искать.
+
+# e19e73d6
+; Aria: Ah, that old tale. The chip's existence is a bit of a myth around here. But I might know someone who could help you out.
+Aria: Ах, этот старый рассказ. О существовании чипа ходят слухи. Но могу порекомендовать кого-то, кто сможет помочь.
+
+# d19f7d49
+; Player: Who?
+Player: Кто?
+
+# 1466da89
+; Aria: There's an old bar down in the undercity. A guy named Mike, ex-military type. If anyone knows about that chip, it'd be him. Chat him up, see what you can find out.
+Aria: В нижнем городе есть старый бар. Там работает Майк, бывший военный. Если кто-то знает о чипе, это он. Поговори с ним, узнай, что можно.
+
+# 2fadd8bb
+; Player: Thanks for the tip, Aria. I'll seek him out.
+Player: Спасибо за совет, Ария. Я пойду к нему.
+
+# 1ad6cdb8
+; Aria: Be cautious in the undercity, {PlayerName}. And remember, in Neon City, truth's often harder to find than fiction.
+Aria: Будь осторожен в нижнем городе, {PlayerName}. И помни, в Неоновом Городе правду иногда сложнее найти, чем вымысел.

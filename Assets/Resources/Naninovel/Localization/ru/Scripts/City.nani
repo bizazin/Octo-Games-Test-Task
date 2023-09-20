@@ -1,0 +1,30 @@
+; English <en> to Russian <ru> localization document for `City` naninovel script
+
+# 3e824e2f
+;     Player: Mike, Aria! I've found the chip. 
+Player: Майк, Ария! Я нашел чип.
+
+# 2267f527
+;     Mike: Hand it over, kid. That chip holds secrets and power that you can't even begin to comprehend. It belongs in the hands of someone who understands its weight, someone who's been through the war and knows the importance of what's stored inside.
+Mike: Дай его сюда, малыш. На этом чипе хранятся секреты и мощь, которые ты даже не можешь начать понимать. Он принадлежит тому, кто понимает его ценность, тому, кто прошел через войну и знает значение того, что на нем сохранено.
+
+# 691b8b4e
+;     Aria: Don't listen to him! Mike owes me, and that chip can settle our score. Moreover, I can ensure it's used for good, to benefit the city and its people. 
+Aria: Не слушай его! Майк задолжал мне, и этот чип может уладить наши счеты. Более того, я могу гарантировать, что он будет использован во благо, на пользу городу и его жителям.
+
+# a2a96754
+;     Player: This is a lot to take in...
+Player: Тяжело принять такое решение...
+
+# cbd2c330
+;     @choice "Отдать чип Майку" goto:MikeDecision
+
+# 39739fe2
+;     @choice "Отдать чип Арии" goto:AriaDecision
+
+# f520c395
+;     @choice "Оставить чип себе" goto:KeepDecision
+
+# 48030d2b
+;     Player: ...
+Player: ...
