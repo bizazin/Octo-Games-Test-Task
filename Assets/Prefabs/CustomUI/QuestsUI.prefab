@@ -354,6 +354,7 @@ GameObject:
   - component: {fileID: 830960155474735693}
   - component: {fileID: 5959424435157195065}
   - component: {fileID: 3743472319349690927}
+  - component: {fileID: 2354415106546877331}
   m_Layer: 5
   m_Name: QuestsView
   m_TagString: Untagged
@@ -474,6 +475,23 @@ MonoBehaviour:
   _questSlider: {fileID: 242727487753722881}
   _questsDatabase: {fileID: 11400000, guid: de84d0c233aef4149b3fef8ea5006628, type: 2}
   _questsSettingsDatabase: {fileID: 11400000, guid: fcc4546be0ff71944ad630bf454bdf3b, type: 2}
+  _currentQuestTrigger: {fileID: 2354415106546877331}
+--- !u!114 &2354415106546877331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3358728411907869127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5975c9748a52c8d43b34c8d7c428cacd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scriptName: 
+  scriptText: '@sfx quest_added'
+  playOnAwake: 0
+  disableWaitInput: 1
 --- !u!1 &4863326129817417713
 GameObject:
   m_ObjectHideFlags: 0
@@ -803,7 +821,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!114 &28027152271297675
 MonoBehaviour:

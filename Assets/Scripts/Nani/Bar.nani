@@ -1,4 +1,6 @@
 @back bar
+@stopBGM fade:1
+@bgm barBGM
 
 @if !isCurrentQuestActive
     @goto MikeFinal

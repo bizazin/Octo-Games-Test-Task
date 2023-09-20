@@ -37,6 +37,8 @@ namespace Naninovel.Commands
         {
             var player = Engine.GetService<IScriptPlayer>();
             var depth = 0; // Depth of the conditional block (changes upon getting in our out of the nested if blocks).
+            if (player.Playlist==null)
+            {}
             for (var i = player.PlayedIndex + 1; i < player.Playlist.Count; i++)
             {
                 var command = player.Playlist[i];

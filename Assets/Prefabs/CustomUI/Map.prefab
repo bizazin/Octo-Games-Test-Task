@@ -651,7 +651,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scriptName: 
-  scriptText: '@hideUI Map
+  scriptText: '@sfx location_selected
+
+    @hideUI Map
 
     @goto City'
   playOnAwake: 0
@@ -1589,7 +1591,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scriptName: 
-  scriptText: '@hideUI Map
+  scriptText: '@sfx location_selected
+
+    @hideUI Map
 
     @goto Skyscarper'
   playOnAwake: 0
@@ -2265,7 +2269,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scriptName: 
-  scriptText: '@hideUI Map
+  scriptText: '@sfx location_selected
+
+    @hideUI Map
 
     @goto Bar'
   playOnAwake: 0

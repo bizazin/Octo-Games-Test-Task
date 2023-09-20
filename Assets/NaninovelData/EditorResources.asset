@@ -247,7 +247,40 @@ MonoBehaviour:
   - Id: Characters/164fec50-8654-4ff5-b5dd-8fb03f654960
     Resources: []
   - Id: Audio
-    Resources: []
+    Resources:
+    - name: introBGM
+      pathPrefix: Audio
+      guid: 43e7f75e5d0727b469d78d2f559973e9
+    - name: cityBGM
+      pathPrefix: Audio
+      guid: 4adf18fd7765f2840af3122fd8d751d9
+    - name: mapBGM
+      pathPrefix: Audio
+      guid: 5c3721d81193dc54b95d40e5c19bc7de
+    - name: barBGM
+      pathPrefix: Audio
+      guid: 5ae406b9dfc4474448ebe32d09e99143
+    - name: skyscarperBGM
+      pathPrefix: Audio
+      guid: 16d05dd35a23a734c849242a4727b315
+    - name: btn_ui
+      pathPrefix: Audio
+      guid: e9e3380c6a83f2e4db32201858606f0f
+    - name: chip_found
+      pathPrefix: Audio
+      guid: 7d098ffc961ef3b4a854eb9e46f5a8f1
+    - name: location_selected
+      pathPrefix: Audio
+      guid: 93d55c22c92323240be34ebb08d9bb70
+    - name: popup_lose
+      pathPrefix: Audio
+      guid: 0811aeaffe6d1e1408c029990e8782b5
+    - name: popup_win
+      pathPrefix: Audio
+      guid: 872a800bca1015a4a9e088ed34360433
+    - name: quest_added
+      pathPrefix: Audio
+      guid: 5223660376adc334fa5c365633f14ff4
   - Id: TextPrinters/af5708a6-b87d-4cc3-9e56-a49c9ef023cd
     Resources:
     - name: Tooltip

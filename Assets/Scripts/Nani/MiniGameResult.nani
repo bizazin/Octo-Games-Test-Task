@@ -1,5 +1,6 @@
 @set isMiniGameStarted=true
 @if isMiniGameWin
+    @sfx popup_win
     Mike: Impressive! Not many can complete that game in such few turns. You've definitely caught my attention. 
     Player: It was quite the challenge, but I'm glad I managed to impress you.
     Mike: As you should be. You wanted information, right? Look for the chip near the main skyscraper. But be careful, it won't be easy getting there.
@@ -7,6 +8,7 @@
     Mike: Good. And if you do manage to find that chip, come back to me. There's more I can share.
     Player: Thank you, Mike. I will.
 @else
+    @sfx popup_lose
     Mike: Well, it seems the game got the better of you this time. But you know, I had a good laugh watching you try, and I appreciate the entertainment.
     Player: Glad I could amuse you. Any chance you'll still share the information?
     Mike: Ah, why not? You've shown spirit. Look for the chip near the main skyscraper. And even if today wasn't your day, it's the effort that counts.

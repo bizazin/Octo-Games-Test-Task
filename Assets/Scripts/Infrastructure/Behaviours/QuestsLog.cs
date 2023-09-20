@@ -15,6 +15,7 @@ namespace Infrastructure.Behaviours
         [SerializeField] private Slider _questSlider;
         [SerializeField] private QuestsDatabase _questsDatabase;
         [SerializeField] private QuestsSettingsDatabase _questsSettingsDatabase;
+        [SerializeField] private PlayScript _currentQuestTrigger;
 
         private readonly ICustomVariableManager _variableManager = Engine.GetService<ICustomVariableManager>();
         private QuestVo _currentQuest;
@@ -36,16 +37,15 @@ namespace Infrastructure.Behaviours
 
             if (_currentQuest != null && _currentQuest.TriggerKey == questKey)
                 return;
-
             var quest = _questsDatabase.GetQuest(questKey);
             var sequence = DOTween.Sequence();
             if (_currentQuest != null)
                 sequence.Append(DisableQuest());
             sequence.Append(SetupAndEnableQuest(quest.Name, quest.Description));
             _currentQuest = quest;
+            _currentQuestTrigger.Play();
         }
         
-
         private void OnCurrentQuestActive()
         {
             _variableManager.TryGetVariableValue<bool>(_questsSettingsDatabase.Settings.CurrentQuestActiveTrigger,

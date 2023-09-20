@@ -93,8 +93,10 @@ MonoBehaviour:
   scriptName: 
   scriptText: '@set skyscarperAvailable=false
 
-    Player: Here it is! Now let''s
-    go to Mike.
+    @sfx chip_found
+
+    Player: Here
+    it is! Now let''s go to Mike.
 
     @set currentQuest="3TalkToMike";mapLeads="bar"
 

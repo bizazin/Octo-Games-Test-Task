@@ -1,3 +1,5 @@
 @back skyscarper
+@stopBGM fade:1
+@bgm skyscarperBGM
 @showUI ChipUI
 @stop

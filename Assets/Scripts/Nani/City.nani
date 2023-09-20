@@ -1,4 +1,6 @@
 @back city
+@stopBGM fade:1
+@bgm cityBGM
 @if !isCurrentQuestActive
     @goto AriaFinal
 @endif
