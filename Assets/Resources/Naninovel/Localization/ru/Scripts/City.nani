@@ -17,14 +17,16 @@ Aria: Не слушай его! Майк задолжал мне, и этот ч
 Player: Тяжело принять такое решение...
 
 # cbd2c330
-;     @choice "Отдать чип Майку" goto:MikeDecision
+;     @choice "Give the chip to Mike" goto:MikeDecision
+@choice "Отдать чип Майку" goto:MikeDecision
 
 # 39739fe2
-;     @choice "Отдать чип Арии" goto:AriaDecision
-
+;     @choice "Give the chip to Aria" goto:AriaDecision
+ @choice "Отдать чип Арии" goto:AriaDecision
+ 
 # f520c395
-;     @choice "Оставить чип себе" goto:KeepDecision
-
+;          @choice "Keep the chip for myself" goto:KeepDecision
+ @choice "Оставить чип себе" goto:KeepDecision
 # 48030d2b
 ;     Player: ...
 Player: ...
