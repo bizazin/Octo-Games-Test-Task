@@ -12,7 +12,6 @@ namespace Infrastructure.Services
         private MemoryGameManager _gameManager;
         private MemoryGameResults _gameResults;
         private TaskCompletionSource<MemoryGameResults> _completionSource;
-        private const string MiniGameSceneName = "Demo";
 
         public UniTask InitializeServiceAsync() => UniTask.CompletedTask;
 
@@ -28,9 +27,9 @@ namespace Infrastructure.Services
 
         public void DestroyService() => ResetService();
 
-        public async UniTask<MemoryGameResults> PlayMiniGameAsync()
+        public async UniTask<MemoryGameResults> PlayMiniGameAsync(string miniGameSceneName)
         {
-            await SceneManager.LoadSceneAsync(MiniGameSceneName, LoadSceneMode.Additive);
+            await SceneManager.LoadSceneAsync(miniGameSceneName, LoadSceneMode.Additive);
             
             _gameManager = Object.FindObjectOfType<MemoryGameManager>();
             _gameManager.Finish += StoreResults;
@@ -38,7 +37,7 @@ namespace Infrastructure.Services
             _completionSource = new TaskCompletionSource<MemoryGameResults>();
             await _completionSource.Task;
 
-            await SceneManager.UnloadSceneAsync(MiniGameSceneName);
+            await SceneManager.UnloadSceneAsync(miniGameSceneName);
             
             return _gameResults;
         }

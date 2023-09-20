@@ -160,6 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cc41a0aa8ad4963b55bb2c3e500e30a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _miniGameSettingsDatabase: {fileID: 11400000, guid: c1d36f7e5004e1a41a61ee62bf164a78, type: 2}
 --- !u!114 &5420589682057193410
 MonoBehaviour:
   m_ObjectHideFlags: 0

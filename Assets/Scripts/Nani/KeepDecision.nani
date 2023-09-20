@@ -1,0 +1,5 @@
+Player: I think it's best if I keep the chip. Both of you have strong reasons, but I need to ensure it's used right.
+Mike: Be careful with it. You have no idea of the power you're holding onto.
+Aria: Just make sure you don't let it fall into the wrong hands.
+@set chipDecision="Self";isCurrentQuestActive=false;isMapLeads=false
+@goto Map

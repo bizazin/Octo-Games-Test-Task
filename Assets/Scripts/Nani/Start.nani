@@ -1,17 +1,13 @@
-; Background of the city
 @back city
 
-; Aria's Avatar
 @char Aria avatar:AriaDefault visible:false
 
 Aria: Whoa, hold up! You're new here, aren't you?
 
-; Player's input for name
 @char Player avatar:PlayerDefault visible:false
 @input PlayerName summary:"Enter your name."
 @stop
 
-; Setting player's name
 @set PlayerName="{PlayerName}"
 
 Player: The name's {PlayerName}. First time setting foot in Neon City.
@@ -31,9 +27,11 @@ Player: Who?
 Aria: There's an old bar down in the undercity. A guy named Mike, ex-military type. If anyone knows about that chip, it'd be him. Chat him up, see what you can find out.
 
 @set currentQuest="1TalkToMike";isCurrentQuestActive=true
+@set mapLeads="bar";isMapLeads=true
+@set skyscarperAvailable=false;
 @showUI QuestsUI
+@showUI MapIconUI
 Player: Thanks for the tip, Aria. I'll seek him out.
 
 Aria: Be cautious in the undercity, {PlayerName}. And remember, in Neon City, truth's often harder to find than fiction.
-@set skyscarperAvailable=false;
 @goto Map

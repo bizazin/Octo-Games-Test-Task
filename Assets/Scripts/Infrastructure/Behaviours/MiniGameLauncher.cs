@@ -1,3 +1,4 @@
+using Infrastructure.Databases;
 using Infrastructure.Services;
 using Naninovel;
 using UnityEngine;
@@ -6,25 +7,26 @@ namespace Infrastructure.Behaviours
 {
     public class MiniGameLauncher : MonoBehaviour
     {
-        private IScriptPlayer _scriptPlayer;
-        private MiniGameService _miniGameService;
+        [SerializeField] private MiniGameSettingsDatabase _miniGameSettingsDatabase;
 
-        private void Start()
-        {
-            _scriptPlayer = Engine.GetService<IScriptPlayer>();
-            _miniGameService = Engine.GetService<MiniGameService>();
-        }
-
-        public void LaunchMiniGame() => LaunchAsync().Forget();
+        private void LaunchMiniGame() => LaunchAsync().Forget();
 
         private async UniTask LaunchAsync()
         {
-            _scriptPlayer.Stop();
+            var scriptPlayer = Engine.GetService<IScriptPlayer>();
+            var miniGameService = Engine.GetService<MiniGameService>();
+            var variableManager = Engine.GetService<ICustomVariableManager>();
+            var winVariableName = _miniGameSettingsDatabase.Settings.WinVariableName;
+            
+            scriptPlayer.Stop();
 
-            var results = await _miniGameService.PlayMiniGameAsync();
+            var results = await miniGameService.PlayMiniGameAsync(_miniGameSettingsDatabase.Settings.SceneName);
 
+            variableManager.TryGetVariableValue<bool>(winVariableName, out var isMiniGameWin);
+            isMiniGameWin = results.amountOfTurns <= _miniGameSettingsDatabase.Settings.MaxTurnsAmount;
+            variableManager.TrySetVariableValue(winVariableName, isMiniGameWin);
 
-            _scriptPlayer.Play();
+            scriptPlayer.Play();
         }
     }
 }

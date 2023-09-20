@@ -1,0 +1,4 @@
+Player: Aria, I trust you to use this chip for the benefit of the city. 
+Aria: Thank you. You won't regret this.
+@set chipDecision="Aria";isCurrentQuestActive=false;isMapLeads=false
+@goto Map

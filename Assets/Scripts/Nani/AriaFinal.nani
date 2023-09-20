@@ -1,0 +1,14 @@
+@if chipDecision=="Aria"
+    Player: Aria, how are things now that you have the chip?
+    Aria: Oh, it's you! I must say, with the chip in my hands, things have become much more manageable. Your decision truly made a difference. How can I assist you today?
+    Player: Just wanted to see how you're doing. Glad to hear things are better.
+    Aria: Your actions spoke louder than words. You've earned my respect, and if you ever need anything, know that I've got your back.
+
+@else
+    Player: Aria, it's been a while. How are things?
+    Aria: Well, if it isn't the one who decided against helping me. Life would've been easier with that chip, but I guess we all make choices. What brings you here?
+    Player: I'm just checking in. Regardless of our past decisions, I hope we can still find common ground.
+    Aria: Perhaps. Time will tell, won't it?
+
+@endif
+@goto Map

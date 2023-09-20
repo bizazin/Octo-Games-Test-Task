@@ -1,0 +1,14 @@
+@if chipDecision=="Mike"
+    Player: Mike, how's everything?
+    Mike: Ah, it's you! Thanks to that chip, things have been looking up. I appreciate your trust in me. How can I help you today?
+    Player: Just checking in. I'm glad to see things are going well for you.
+    Mike: And I'm always here if you need anything. You've made a good friend.
+    
+@else
+    Player: Hey, Mike. How are you?
+    Mike: It's you. What do you want? Can't say I'm too pleased seeing you after you decided to keep that chip away from me.
+    Player: I made a choice based on what I thought was right. I hope we can move past that.
+    Mike: We'll see about that. Just remember, actions have consequences.
+
+@endif
+@goto Map

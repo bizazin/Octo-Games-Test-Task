@@ -1,26 +1,36 @@
+@back bar
+
+@if !isCurrentQuestActive
+    @goto MikeFinal
+@endif
+
 @if currentQuest=="1TalkToMike"
-    @back bar
 
-@char Mike avatar:MikeDefault visible:false
+    @char Mike avatar:MikeDefault visible:false
     
-    Mike: Haven't seen you around here before. You looking for trouble or just a drink?
+    Mike: New face in my bar. What do you want?
 
-    Player: Are you Mike, the ex-soldier? I've heard you might have some information I'm after.
+    Player: You're Mike, right? Heard you have info about a special chip.
 
-    Mike: Ah, so you've been talking to Aria. What is it you want?
+    Mike: Maybe I do, maybe I don't. Why should I help you?
 
-    Player: I'm looking for a chip. A special one, said to be able to control the main AI of the city.
+    Player: The city needs a change, and I'm here to ensure it.
 
-    Mike: That's a tall order. Many have come looking for that very thing, and many have left empty-handed. Why should I help you?
+    Mike: Prove it. Play "Memory Match". It's a game from my soldier days.
 
-    Player: Because I believe in changing the city for the better. And I'm willing to prove my commitment. 
+    Player: How's it played?
 
-    Mike: I admire your spirit. Tell you what, beat me in a game and I'll tell you what I know. Lose, and you owe me a favor in return.
+    Mike: Match twin cards on a board of 6 in under 5 turns. Win, and we'll talk.
 
-    Player: Fair enough. What's the game?
+    Player: Challenge accepted.
 
-    Mike: An old army favorite of mine, a game of strategy and wits. Prepare yourself.
+    Mike: Show me what you got.
     @set isMiniGameStarted=true
+    @goto MiniGameResult
+@elseif currentQuest=="3TalkToMike"
+    Player: No sign of Mike. Should search the city.
+    @set currentQuest="4FindMikeInTheCity";mapLeads="city"
+    @goto Map
 @else
     Player: ...
     @goto Map

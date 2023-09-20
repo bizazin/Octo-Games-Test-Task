@@ -1,5 +1,18 @@
-@if currentQuest=="3FindMike"
-    Player: пока что рано
+@back city
+@if !isCurrentQuestActive
+    @goto AriaFinal
+@endif
+
+@if currentQuest=="4FindMikeInTheCity"
+    Player: Mike, Aria! I've found the chip. 
+    Mike: Hand it over, kid. That chip holds secrets and power that you can't even begin to comprehend. It belongs in the hands of someone who understands its weight, someone who's been through the war and knows the importance of what's stored inside.
+    Aria: Don't listen to him! Mike owes me, and that chip can settle our score. Moreover, I can ensure it's used for good, to benefit the city and its people. 
+    Player: This is a lot to take in...
+    
+    @choice "Give the chip to Mike" goto:MikeDecision
+    @choice "Give the chip to Aria" goto:AriaDecision
+    @choice "Keep the chip for myself" goto:KeepDecision
+    @stop
 @else
     Player: ...
 @endif

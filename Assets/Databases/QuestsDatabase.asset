@@ -16,3 +16,16 @@ MonoBehaviour:
   - TriggerKey: 1TalkToMike
     Name: Talk to Mike
     Description: Go to the Bar and find Mike
+    LocationLeads: 2
+  - TriggerKey: 2FindTheChip
+    Name: Find the Chip
+    Description: Go to the Skyscarper and look for the Chip
+    LocationLeads: 3
+  - TriggerKey: 3TalkToMike
+    Name: Talk to Mike
+    Description: Go to the Bar and find Mike
+    LocationLeads: 2
+  - TriggerKey: 4FindMikeInTheCity
+    Name: Find Mike in the City
+    Description: Go to the City and find Mike
+    LocationLeads: 1

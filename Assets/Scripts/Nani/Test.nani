@@ -1,5 +1,0 @@
-@showUI QuestsUI
-@set currentQuest="1TalkToMike";isCurrentQuestActive=true
-@input name summary:"Choose your name."
-@stop
-@set isCurrentQuestActive=false
